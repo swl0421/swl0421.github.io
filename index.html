@@ -376,7 +376,7 @@
       .footer-nav {
         position: relative;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         gap: 4px;
         margin: 0 0 12px;
         padding: 0;
@@ -490,6 +490,10 @@
           grid-template-columns: 1fr;
         }
 
+        .footer-nav {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -536,10 +540,12 @@
 
             <nav aria-label="Section navigation">
               <ul class="rail-grid">
-                <li><a href="#contact">Find</a></li>
-                <li><a href="#education">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#future">Courses</a></li>
+                <li><a href="#future">Future</a></li>
               </ul>
             </nav>
           </aside>
@@ -651,10 +657,12 @@
         <footer class="footer-band">
           <nav aria-label="Footer navigation">
             <ul class="footer-nav">
-              <li><a href="#contact">Find</a></li>
-              <li><a href="#education">Home</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#education">Education</a></li>
               <li><a href="#skills">Skills</a></li>
-              <li><a href="#experience">Support</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#future">Future</a></li>
             </ul>
           </nav>
           <p class="footer-small">
